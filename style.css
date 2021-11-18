@@ -51,7 +51,6 @@ body
     margin: 30px;
     padding: 10px 30px;
     background: green;
-    color: white;
     font-size: 18px;
     font-weight: bold;
     border: 2px solid green;
@@ -93,9 +92,10 @@ button
 {
     margin: 20px 20px;
     padding: 10px 20px;
-    border: solid 1px #6184F6;
+    border: solid 1px rgb(18, 18, 219);
     border-radius: 5px;
-    background: #6184F6;
+    background: rgb(18, 18, 219);
+    color: white;
     font-size: 15px;
     transition-duration: 0.7s;
     
@@ -103,7 +103,7 @@ button
 button:hover
 {
     border: solid 1px black;
-    background: rgb(103, 156, 235);
+    background: rgba(18, 18, 219,0.7);
     cursor: pointer;
 }
 .trash:hover
