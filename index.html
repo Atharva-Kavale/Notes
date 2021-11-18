@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Notes</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="icon.png">
+
+        <link rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        >
+    </head>
+
+    <body>
+        <p class="heading">Note Takers</p>
+        <p class="subheading">Add a new note:</p>
+        <div class="inputs">
+            <p>
+                Title: 
+                <input type="text" id="title" placeholder="Title of your note" maxlength="20">
+                <span id="simpleNote">(20 characters max)</span>
+            </p>
+            <p><span class="noteC">Note: </span><textarea id="note" placeholder="Write a new note here"></textarea></p>
+        </div>
+        <button id="addBtn">Add Note</button>
+        <div id="data">
+
+        </div>
+        <div id="modal">
+            <div id="modal-content">
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+
+</html>
