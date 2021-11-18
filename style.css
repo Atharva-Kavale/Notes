@@ -104,6 +104,7 @@ button:hover
 {
     border: solid 1px black;
     background: rgb(103, 156, 235);
+    cursor: pointer;
 }
 .trash:hover
 {
